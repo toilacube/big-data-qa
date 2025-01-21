@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/bigdata-qa/static/css/main.cd83ae66.css",
+    "main.js": "/bigdata-qa/static/js/main.3d28e6d8.js",
+    "static/js/453.efd3f5c2.chunk.js": "/bigdata-qa/static/js/453.efd3f5c2.chunk.js",
+    "index.html": "/bigdata-qa/index.html",
+    "main.cd83ae66.css.map": "/bigdata-qa/static/css/main.cd83ae66.css.map",
+    "main.3d28e6d8.js.map": "/bigdata-qa/static/js/main.3d28e6d8.js.map",
+    "453.efd3f5c2.chunk.js.map": "/bigdata-qa/static/js/453.efd3f5c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd83ae66.css",
+    "static/js/main.3d28e6d8.js"
+  ]
+}
