@@ -1,0 +1,342 @@
+{
+  "questions": [
+    {
+      "question": "Apache Spark khởi đầu tại đâu?",
+      "options": ["Google", "AMPLab, UC Berkeley", "MIT", "Stanford"],
+      "answer": "AMPLab, UC Berkeley"
+    },
+    {
+      "question": "Ai là trưởng dự án ban đầu của Apache Spark?",
+      "options": [
+        "Dr. Matei Zaharia",
+        "Doug Cutting",
+        "Mark Zuckerberg",
+        "Satya Nadella"
+      ],
+      "answer": "Dr. Matei Zaharia"
+    },
+    {
+      "question": "Những vấn đề nào sau đây KHÔNG phải là hạn chế của MapReduce?",
+      "options": [
+        "Khả năng lập trình phức tạp",
+        "Xử lý dữ liệu theo thời gian thực",
+        "Phải xử lý dữ liệu qua hai quá trình Map và Reduce",
+        "Tất cả đều là hạn chế của MapReduce"
+      ],
+      "answer": "Tất cả đều là hạn chế của MapReduce"
+    },
+    {
+      "question": "RDD là viết tắt của?",
+      "options": [
+        "Resilient Distributed Dataset",
+        "Rapid Data Distribution",
+        "Reactive Distributed Data",
+        "Remote Data Driver"
+      ],
+      "answer": "Resilient Distributed Dataset"
+    },
+    {
+      "question": "Đâu là đặc điểm của RDD?",
+      "options": [
+        "Là đối tượng có thể đọc và ghi",
+        "Chỉ lưu trữ dữ liệu trên đĩa cứng",
+        "Là đối tượng chỉ đọc và có khả năng chịu lỗi tốt",
+        "Không thể lưu dữ liệu tạm thời trong bộ nhớ"
+      ],
+      "answer": "Là đối tượng chỉ đọc và có khả năng chịu lỗi tốt"
+    },
+    {
+      "question": "Có bao nhiêu cách để tạo ra RDD?",
+      "options": ["2 cách", "3 cách", "4 cách", "5 cách"],
+      "answer": "3 cách"
+    },
+    {
+      "question": "Phiên bản 1.0 của Apache Spark được ra mắt vào thời gian nào?",
+      "options": [
+        "Tháng 3/2014",
+        "Tháng 4/2014",
+        "Tháng 5/2014",
+        "Tháng 6/2014"
+      ],
+      "answer": "Tháng 5/2014"
+    },
+    {
+      "question": "Công ty nào được thành lập để hỗ trợ Spark và các công nghệ liên quan?",
+      "options": ["Cloudera", "Hortonworks", "Databricks", "MapR"],
+      "answer": "Databricks"
+    },
+    {
+      "question": "Tại sao Spark sử dụng bộ nhớ hệ thống thay vì lưu kết quả trung gian vào đĩa?",
+      "options": [
+        "Để tiết kiệm chi phí",
+        "Để tăng tốc độ xử lý và hiệu suất",
+        "Vì đĩa cứng không đủ dung lượng",
+        "Để đơn giản hóa quá trình lập trình"
+      ],
+      "answer": "Để tăng tốc độ xử lý và hiệu suất"
+    },
+    {
+      "question": "Ngôn ngữ lập trình nào được Spark sử dụng để cho phép khả năng lập trình tương tác?",
+      "options": ["Python", "Java", "Scala", "R"],
+      "answer": "Scala"
+    },
+    {
+      "question": "RDD được tạo thành từ mấy thành phần chính?",
+      "options": [
+        "3 thành phần",
+        "4 thành phần",
+        "5 thành phần",
+        "6 thành phần"
+      ],
+      "answer": "5 thành phần"
+    },
+    {
+      "question": "Khi một RDD mới được tạo ra và bộ nhớ không còn trống, Spark sử dụng thuật toán nào để thay thế RDD?",
+      "options": [
+        "FIFO (First In First Out)",
+        "LIFO (Last In First Out)",
+        "LRU (Least Recently Used)",
+        "Random Replacement"
+      ],
+      "answer": "LRU (Least Recently Used)"
+    },
+    {
+      "question": "Đâu KHÔNG phải là cấp độ lưu trữ của RDD?",
+      "options": [
+        "MEMORY_ONLY",
+        "MEMORY_AND_DISK",
+        "MEMORY_ONLY_SER",
+        "CACHE_ONLY"
+      ],
+      "answer": "CACHE_ONLY"
+    },
+    {
+      "question": "Có mấy loại phụ thuộc chính giữa RDD cha và con?",
+      "options": ["1 loại", "2 loại", "3 loại", "4 loại"],
+      "answer": "2 loại"
+    },
+    {
+      "question": "Đâu là đặc điểm của phụ thuộc hẹp (narrow dependency)?",
+      "options": [
+        "Yêu cầu xáo trộn dữ liệu",
+        "Có mối quan hệ n-1 giữa các phân mảnh",
+        "Tốn nhiều tài nguyên",
+        "Đầu vào và đầu ra nằm trên cùng một phân mảnh"
+      ],
+      "answer": "Đầu vào và đầu ra nằm trên cùng một phân mảnh"
+    },
+    {
+      "question": "Đâu là một thao tác Hành động (Action) trong Spark?",
+      "options": ["map", "filter", "reduce", "flatMap"],
+      "answer": "reduce"
+    },
+    {
+      "question": "Tại sao Spark sử dụng cơ chế trì hoãn tính toán (lazy evaluation)?",
+      "options": [
+        "Để giảm bộ nhớ sử dụng",
+        "Để tăng tốc độ xử lý",
+        "Để tối ưu hóa quá trình thực thi bằng cách chỉ tính toán khi cần thiết",
+        "Để đơn giản hóa quá trình lập trình"
+      ],
+      "answer": "Để tối ưu hóa quá trình thực thi bằng cách chỉ tính toán khi cần thiết"
+    },
+    {
+      "question": "Trong kiến trúc Spark, đâu là chương trình chạy hàm main() của ứng dụng và tạo SparkSession?",
+      "options": [
+        "Executor",
+        "Driver program",
+        "Cluster Manager",
+        "Worker Node"
+      ],
+      "answer": "Driver program"
+    },
+    {
+      "question": "Job trong Spark là gì?",
+      "options": [
+        "Một đơn vị công việc đơn lẻ được gửi cho executor",
+        "Chương trình quản lý tài nguyên trên cụm",
+        "Một chuỗi tính toán song song được tạo ra để đáp ứng một hành động",
+        "Một nhóm các máy ảo Java được kết nối với nhau"
+      ],
+      "answer": "Một chuỗi tính toán song song được tạo ra để đáp ứng một hành động"
+    },
+    {
+      "question": "Đâu là ví dụ của thao tác Biến đổi rộng (wide transformation)?",
+      "options": ["map", "filter", "join", "flatMap"],
+      "answer": "join"
+    },
+    {
+      "question": "Những thành phần chính nào trong hệ thống Apache Spark?",
+      "options": [
+        "Spark Core, Spark SQL, MLlib",
+        "Spark Core, Spark SQL, MLlib, GraphX, Structured Streaming",
+        "Spark Core, Spark SQL, Python, R",
+        "Spark Core, Python, Java, Scala"
+      ],
+      "answer": "Spark Core, Spark SQL, MLlib, GraphX, Structured Streaming"
+    },
+    {
+      "question": "Đâu KHÔNG phải là đặc điểm của Driver trong Spark?",
+      "options": [
+        "Là một trong những nút thuộc cụm",
+        "Không chạy tính toán (filter, map, reduce)",
+        "Đóng vai trò quản lý trong cụm máy Spark",
+        "Thực hiện các phép biến đổi dữ liệu trực tiếp"
+      ],
+      "answer": "Thực hiện các phép biến đổi dữ liệu trực tiếp"
+    },
+    {
+      "question": "Thế nào là một Stage trong Spark?",
+      "options": [
+        "Là một thao tác đơn lẻ được áp dụng cho mỗi phân vùng dữ liệu",
+        "Là một chuỗi các tác vụ có thể chạy liên tiếp nhau mà không có thao tác xáo trộn",
+        "Là tập các phân mảnh logic của RDD/Dataset",
+        "Là một thao tác phân vùng lại dữ liệu trong các cụm"
+      ],
+      "answer": "Là một chuỗi các tác vụ có thể chạy liên tiếp nhau mà không có thao tác xáo trộn"
+    },
+    {
+      "question": "Đâu là đặc điểm của thao tác Shuffle trong Spark?",
+      "options": [
+        "Là thao tác nhẹ và nhanh chóng",
+        "Không yêu cầu truyền dữ liệu qua mạng",
+        "Chỉ xảy ra trong một node",
+        "Là thao tác tốn kém vì nhiều dữ liệu được gửi qua mạng"
+      ],
+      "answer": "Là thao tác tốn kém vì nhiều dữ liệu được gửi qua mạng"
+    },
+    {
+      "question": "MLlib trong Spark có những công cụ nào?",
+      "options": [
+        "Chỉ có các thuật toán phân lớp và hồi quy",
+        "Chỉ có công cụ xử lý đồ thị",
+        "Các thuật toán phổ biến, trích xuất thuộc tính, công cụ xây dựng ML Pipeline, và các tiện ích",
+        "Chỉ có công cụ xử lý SQL"
+      ],
+      "answer": "Các thuật toán phổ biến, trích xuất thuộc tính, công cụ xây dựng ML Pipeline, và các tiện ích"
+    },
+    {
+      "question": "Đồ thị xuất xứ (Lineage graph) trong Spark là gì?",
+      "options": [
+        "Là đồ thị thể hiện cấu trúc của cluster",
+        "Là đồ thị định hướng không tuần hoàn (DAG) ghi nhận sự phụ thuộc giữa các RDD",
+        "Là đồ thị thể hiện kết nối giữa các worker node",
+        "Là đồ thị thể hiện luồng dữ liệu trong Spark SQL"
+      ],
+      "answer": "Là đồ thị định hướng không tuần hoàn (DAG) ghi nhận sự phụ thuộc giữa các RDD"
+    },
+    {
+      "question": "Bộ lập lịch DAG (DAGScheduler) trong Spark có nhiệm vụ gì?",
+      "options": [
+        "Thực thi các phép biến đổi trực tiếp trên dữ liệu",
+        "Quản lý việc lưu trữ RDD trong bộ nhớ",
+        "Chuyển đổi kế hoạch thực thi logic thành kế hoạch thực thi vật lý",
+        "Quản lý các worker node trong cluster"
+      ],
+      "answer": "Chuyển đổi kế hoạch thực thi logic thành kế hoạch thực thi vật lý"
+    },
+    {
+      "question": "Spark Structured Streaming được thêm vào từ phiên bản nào?",
+      "options": ["1.0", "1.5", "2.0", "3.0"],
+      "answer": "2.0"
+    },
+    {
+      "question": "Đâu là lợi ích của một nền tảng hợp nhất như Spark?",
+      "options": [
+        "Tốc độ xử lý nhanh hơn các hệ thống riêng lẻ",
+        "Không cần sao chép dữ liệu giữa các hệ thống và dễ dàng tái sử dụng mã nguồn",
+        "Chi phí triển khai thấp hơn",
+        "Yêu cầu ít tài nguyên phần cứng hơn"
+      ],
+      "answer": "Không cần sao chép dữ liệu giữa các hệ thống và dễ dàng tái sử dụng mã nguồn"
+    },
+    {
+      "question": "GraphX trong Spark có đặc điểm gì?",
+      "options": [
+        "Chỉ có thể xử lý dữ liệu dạng đồ thị",
+        "Không thể tích hợp với RDD",
+        "Có thể xem cùng một dữ liệu dưới dạng biểu đồ và bộ sưu tập",
+        "Chỉ hỗ trợ các thuật toán đồ thị cơ bản"
+      ],
+      "answer": "Có thể xem cùng một dữ liệu dưới dạng biểu đồ và bộ sưu tập"
+    },
+    {
+      "question": "Trong Spark, các nhóm tác vụ không phụ thuộc lẫn nhau được xử lý như thế nào?",
+      "options": [
+        "Được xử lý tuần tự",
+        "Được gửi cho cụm để thực hiện song song",
+        "Được xử lý trên một máy duy nhất",
+        "Chỉ được xử lý trên driver node"
+      ],
+      "answer": "Được gửi cho cụm để thực hiện song song",
+      "explanation": "Các nhóm tác vụ không phụ thuộc lẫn nhau có thể được gửi cho cụm để thực hiện song song, điều này tối đa hóa khả năng song song hóa trên các cụm máy phân tán."
+    },
+    {
+      "question": "Bộ lập lịch DAG trong Spark tính toán vị trí chạy từng tác vụ dựa trên yếu tố nào?",
+      "options": [
+        "Chỉ dựa trên tài nguyên có sẵn của cụm",
+        "Chỉ dựa trên kích thước của dữ liệu",
+        "Vị trí ưu tiên của các RDD cơ bản và vị trí của bộ nhớ tạm thời",
+        "Chỉ dựa trên thời gian thực thi dự kiến"
+      ],
+      "answer": "Vị trí ưu tiên của các RDD cơ bản và vị trí của bộ nhớ tạm thời",
+      "explanation": "Bộ lập lịch DAG tính toán vị trí chạy từng tác vụ trong một nhóm dựa trên vị trí ưu tiên của các RDD cơ bản và vị trí của bộ nhớ tạm thời (cache) hoặc dữ liệu xáo trộn."
+    },
+    {
+      "question": "Trong Spark, có mấy lựa chọn để lưu trữ RDD?",
+      "options": ["2 lựa chọn", "3 lựa chọn", "4 lựa chọn", "5 lựa chọn"],
+      "answer": "3 lựa chọn",
+      "explanation": "Trong Spark có 3 lựa chọn lưu trữ RDD: lưu trữ trong bộ nhớ dạng đối tượng Java chưa mã hóa, lưu trữ trong bộ nhớ dạng dữ liệu đã mã hóa, và lưu trữ trên đĩa."
+    },
+    {
+      "question": "SparkSession được giới thiệu từ phiên bản nào của Spark?",
+      "options": [
+        "Phiên bản 1.x",
+        "Phiên bản 2.x",
+        "Phiên bản 3.x",
+        "Phiên bản 4.x"
+      ],
+      "answer": "Phiên bản 2.x",
+      "explanation": "SparkSession được giới thiệu từ phiên bản 2.x của Spark."
+    },
+    {
+      "question": "Biến lan truyền (broadcast variables) trong Spark có đặc điểm gì?",
+      "options": [
+        "Có thể ghi và đọc từ tất cả các nút",
+        "Chỉ đọc được và được lưu vào bộ nhớ đệm trên mỗi nút",
+        "Chỉ tồn tại trên driver node",
+        "Được tự động xóa sau mỗi stage"
+      ],
+      "answer": "Chỉ đọc được và được lưu vào bộ nhớ đệm trên mỗi nút",
+      "explanation": "Các biến lan truyền (broadcast) cho phép người dùng giữ một biến chỉ đọc được lưu vào bộ nhớ đệm trên mỗi nút."
+    },
+    {
+      "question": "Bộ nhớ mặc định của một tiến trình trong Spark là bao nhiêu?",
+      "options": ["256MB", "512MB", "1GB", "2GB"],
+      "answer": "512MB",
+      "explanation": "Bộ nhớ mặc định của một tiến trình trong Spark là 512MB."
+    },
+    {
+      "question": "Trong Spark, nhiệm vụ của TaskSchedulerBackend là gì?",
+      "options": [
+        "Chỉ quản lý bộ nhớ",
+        "Chỉ phân phối tác vụ",
+        "Theo dõi các executor đã đăng ký và tài nguyên sẵn có của nó",
+        "Chỉ xử lý lỗi"
+      ],
+      "answer": "Theo dõi các executor đã đăng ký và tài nguyên sẵn có của nó",
+      "explanation": "TaskSchedulerBackend có nhiệm vụ theo dõi các đơn vị thực thi (executor) đã đăng ký và tài nguyên sẵn có của nó."
+    },
+    {
+      "question": "SparkSession bao gồm những ngữ cảnh nào?",
+      "options": [
+        "Chỉ SparkContext",
+        "SparkContext và SQLContext",
+        "SparkContext, SQLContext, StreamingContext và HiveContext",
+        "Chỉ SQLContext và HiveContext"
+      ],
+      "answer": "SparkContext, SQLContext, StreamingContext và HiveContext",
+      "explanation": "SparkSession bao gồm các ngữ cảnh: SparkContext, SQLContext, StreamingContext và HiveContext."
+    }
+  ]
+}

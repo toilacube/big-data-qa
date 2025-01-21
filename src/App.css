@@ -1,38 +1,42 @@
 .App {
   text-align: center;
+  padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
+.option {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+  cursor: pointer;
+  /* transition: background-color 0.3s; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.option:hover {
+  background-color: #f0f0f0;
 }
 
-.App-link {
-  color: #61dafb;
+.correct {
+  background-color: #d4edda; /* Green for correct answers */
+  pointer-events: none; /* Disable pointer events for correct answers */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.incorrect {
+  background-color: #f8d7da; /* Red for incorrect answers */
+  pointer-events: none; /* Disable hover effect for incorrect answers */
+}
+
+.highlight-correct {
+  background-color: #d4edda; /* Yellow for correct answers (user selection or wrong) */
+  pointer-events: none; 
 }

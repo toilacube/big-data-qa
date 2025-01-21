@@ -1,0 +1,444 @@
+{
+  "questions": [
+    {
+      "question": "Hạn chế lớn nhất trong các mô hình phân tích dữ liệu hiện tại là gì?",
+      "options": [
+        "Giao tiếp đồng bộ",
+        "Phụ thuộc nhiều vào dữ liệu thô",
+        "Phụ thuộc cao vào lưu trữ cục bộ",
+        "Không thể mở rộng"
+      ],
+      "answer": "Không thể mở rộng"
+    },
+    {
+      "question": "Thách thức chính trong hệ thống phân tán liên quan đến băng thông mạng là gì?",
+      "options": [
+        "Khả năng mở rộng vô hạn của các nút",
+        "Nút cổ chai khi trao đổi lượng lớn dữ liệu giữa các nút",
+        "Sao chép dữ liệu dư thừa",
+        "Hiệu suất I/O cao"
+      ],
+      "answer": "Nút cổ chai khi trao đổi lượng lớn dữ liệu giữa các nút"
+    },
+    {
+      "question": "Hai hàm cơ bản trong lập trình hàm được sử dụng trong MapReduce là gì?",
+      "options": [
+        "Apply và Sort",
+        "Map và Reduce",
+        "Filter và Fold",
+        "Shuffle và Combine"
+      ],
+      "answer": "Map và Reduce"
+    },
+    {
+      "question": "Trong MapReduce, vai trò của Reducer là gì?",
+      "options": [
+        "Chia dữ liệu đầu vào thành các phần nhỏ hơn",
+        "Tổng hợp kết quả từ dữ liệu trung gian",
+        "Phân phối nhiệm vụ giữa các nút",
+        "Xáo trộn dữ liệu giữa các worker"
+      ],
+      "answer": "Tổng hợp kết quả từ dữ liệu trung gian"
+    },
+    {
+      "question": "Kích thước khối mặc định trong HDFS là bao nhiêu?",
+      "options": ["64 MB", "128 MB", "256 MB", "512 MB"],
+      "answer": "128 MB"
+    },
+    {
+      "question": "Tại sao HDFS lưu trữ khối trên nhiều nút?",
+      "options": [
+        "Để cải thiện tốc độ đọc và ghi",
+        "Để đảm bảo khả năng chịu lỗi",
+        "Để giảm chi phí lưu trữ",
+        "Để đơn giản hóa quản lý siêu dữ liệu"
+      ],
+      "answer": "Để đảm bảo khả năng chịu lỗi"
+    },
+    {
+      "question": "Vấn đề phổ biến trong xử lý song song là gì?",
+      "options": [
+        "Đơn giản hóa quá mức cấu trúc dữ liệu",
+        "Khó khăn trong việc tổng hợp kết quả của các worker",
+        "Tránh xử lý dư thừa",
+        "Tất cả các worker hoàn thành nhiệm vụ cùng lúc"
+      ],
+      "answer": "Khó khăn trong việc tổng hợp kết quả của các worker"
+    },
+    {
+      "question": "Cơ chế đồng bộ nào cần thiết cho trạng thái chia sẻ trong hệ thống song song?",
+      "options": [
+        "Ngăn chặn deadlock",
+        "Khóa và biến điều kiện",
+        "Giao tiếp bất đồng bộ",
+        "Hệ thống quản lý tập trung"
+      ],
+      "answer": "Khóa và biến điều kiện"
+    },
+    {
+      "question": "Lợi ích của việc sử dụng Combiner trong MapReduce là gì?",
+      "options": [
+        "Giảm việc xáo trộn dữ liệu",
+        "Tăng hiệu suất mapper",
+        "Đảm bảo cân bằng tải",
+        "Tránh lưu trữ trung gian"
+      ],
+      "answer": "Giảm việc xáo trộn dữ liệu"
+    },
+    {
+      "question": "Hadoop tiếp cận xử lý tập dữ liệu lớn bằng cách nào?",
+      "options": [
+        "Di chuyển dữ liệu đến worker",
+        "Di chuyển xử lý đến dữ liệu",
+        "Xử lý tập trung tại các nút master",
+        "Phân phối tác vụ đồng bộ"
+      ],
+      "answer": "Di chuyển xử lý đến dữ liệu"
+    },
+    {
+      "question": "Trong HDFS, tại sao các khối dữ liệu được nhân bản?",
+      "options": [
+        "Để giảm tải trên NameNode",
+        "Để đảm bảo tính sẵn sàng và khôi phục lỗi",
+        "Để tăng hiệu suất ghi dữ liệu",
+        "Để tăng tính nhất quán"
+      ],
+      "answer": "Để đảm bảo tính sẵn sàng và khôi phục lỗi"
+    },
+    {
+      "question": "YARN trong Hadoop 2.x có vai trò chính là gì?",
+      "options": [
+        "Quản lý tài nguyên cụm",
+        "Lập lịch trình dữ liệu đầu vào",
+        "Tạo không gian tên mới",
+        "Giám sát TaskTracker"
+      ],
+      "answer": "Quản lý tài nguyên cụm"
+    },
+    {
+      "question": "NameNode trong HDFS có vai trò gì?",
+      "options": [
+        "Lưu trữ dữ liệu thực tế",
+        "Điều phối truy cập tệp và lưu trữ siêu dữ liệu",
+        "Phân bổ tài nguyên cho các ứng dụng",
+        "Thực hiện các tác vụ MapReduce"
+      ],
+      "answer": "Điều phối truy cập tệp và lưu trữ siêu dữ liệu"
+    },
+    {
+      "question": "Vấn đề thường gặp nhất khi NameNode gặp lỗi là gì?",
+      "options": [
+        "Hệ thống không thể thực thi MapReduce",
+        "NameNode tự khởi động lại",
+        "Tăng tốc độ xử lý dữ liệu",
+        "Dữ liệu không thể được nhân bản"
+      ],
+      "answer": "Hệ thống không thể thực thi MapReduce"
+    },
+    {
+      "question": "HDFS phân phối lưu lượng dữ liệu bằng cách nào?",
+      "options": [
+        "Di chuyển toàn bộ dữ liệu đến NameNode",
+        "Đọc trực tiếp từ DataNode gần nhất",
+        "Yêu cầu ứng dụng xử lý qua NameNode",
+        "Tăng dung lượng mạng"
+      ],
+      "answer": "Đọc trực tiếp từ DataNode gần nhất"
+    },
+    {
+      "question": "YARN giới thiệu khái niệm nào để thay thế JobTracker trong Hadoop 1.x?",
+      "options": [
+        "ApplicationMaster",
+        "Resource Manager",
+        "TaskTracker",
+        "Node Manager"
+      ],
+      "answer": "ApplicationMaster"
+    },
+    {
+      "question": "Vấn đề của MapReduce với các thuật toán đệ quy là gì?",
+      "options": [
+        "Không thể thực hiện song song hóa",
+        "Không thể xử lý luồng dữ liệu",
+        "Không phù hợp cho bài toán lặp đi lặp lại",
+        "Không hỗ trợ phân tích dữ liệu phi cấu trúc"
+      ],
+      "answer": "Không phù hợp cho bài toán lặp đi lặp lại"
+    },
+    {
+      "question": "Định dạng cơ bản của dữ liệu trong MapReduce là gì?",
+      "options": [
+        "Danh sách các đối tượng",
+        "Danh sách các cặp khóa-giá trị",
+        "Dữ liệu phi cấu trúc",
+        "Tệp văn bản thô"
+      ],
+      "answer": "Danh sách các cặp khóa-giá trị"
+    },
+    {
+      "question": "Hàm Combiner trong MapReduce thực hiện điều gì?",
+      "options": [
+        "Tổng hợp cục bộ dữ liệu trước khi chuyển sang Reducer",
+        "Chia nhỏ dữ liệu đầu vào cho các Mapper",
+        "Kết hợp các kết quả của Reducer",
+        "Giám sát tiến trình của worker"
+      ],
+      "answer": "Tổng hợp cục bộ dữ liệu trước khi chuyển sang Reducer"
+    },
+    {
+      "question": "HDFS chia dữ liệu thành các khối với mục đích gì?",
+      "options": [
+        "Để tăng tốc độ xử lý",
+        "Để quản lý và sao chép dễ dàng hơn",
+        "Để tối ưu hóa siêu dữ liệu",
+        "Để tăng tốc độ truy xuất ngẫu nhiên"
+      ],
+      "answer": "Để quản lý và sao chép dễ dàng hơn"
+    },
+    {
+      "question": "Kích thước khối lớn trong HDFS mang lại lợi ích gì?",
+      "options": [
+        "Giảm thời gian tìm kiếm trên đĩa",
+        "Tăng hiệu suất xử lý song song",
+        "Giảm dung lượng lưu trữ cần thiết",
+        "Cải thiện khả năng đọc ngẫu nhiên"
+      ],
+      "answer": "Giảm thời gian tìm kiếm trên đĩa"
+    },
+    {
+      "question": "NameNode sử dụng cơ chế nào để phát hiện lỗi của DataNode?",
+      "options": [
+        "Báo cáo khối định kỳ",
+        "Nhịp tim",
+        "Ghi nhật ký lỗi",
+        "Phân tích dữ liệu mạng"
+      ],
+      "answer": "Nhịp tim"
+    },
+    {
+      "question": "Tại sao MapReduce không hiệu quả với xử lý dữ liệu thời gian thực?",
+      "options": [
+        "Không hỗ trợ dữ liệu phân tán",
+        "Không tối ưu cho dữ liệu luồng",
+        "Cần nhiều bộ nhớ hơn để xử lý",
+        "Phải viết lại toàn bộ ứng dụng"
+      ],
+      "answer": "Không tối ưu cho dữ liệu luồng"
+    },
+    {
+      "question": "Một khối dữ liệu trong HDFS thường được nhân bản bao nhiêu lần?",
+      "options": ["2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "question": "Tại sao Hadoop chọn chuyển chương trình đến dữ liệu thay vì ngược lại?",
+      "options": [
+        "Giảm chi phí xử lý",
+        "Tăng tốc độ đọc/ghi",
+        "Giảm băng thông mạng",
+        "Tăng khả năng mở rộng"
+      ],
+      "answer": "Giảm băng thông mạng"
+    },
+    {
+      "question": "Combiner hoạt động ở giai đoạn nào của MapReduce?",
+      "options": [
+        "Trước Mapper",
+        "Giữa Mapper và Reducer",
+        "Sau Reducer",
+        "Trong quá trình Shuffle"
+      ],
+      "answer": "Giữa Mapper và Reducer"
+    },
+    {
+      "question": "HDFS lưu trữ siêu dữ liệu ở đâu?",
+      "options": ["NameNode", "DataNode", "TaskTracker", "ApplicationMaster"],
+      "answer": "NameNode"
+    },
+    {
+      "question": "YARN giải quyết hạn chế nào trong Hadoop 1.x?",
+      "options": [
+        "Không hỗ trợ dữ liệu lớn",
+        "Quá tải JobTracker",
+        "Không hỗ trợ lưu trữ phân tán",
+        "Băng thông mạng thấp"
+      ],
+      "answer": "Quá tải JobTracker"
+    },
+    {
+      "question": "MapReduce Runtime xử lý lỗi của worker bằng cách nào?",
+      "options": [
+        "Tạm dừng tất cả công việc",
+        "Khởi động lại worker",
+        "Bỏ qua lỗi",
+        "Tăng số lượng reducer"
+      ],
+      "answer": "Khởi động lại worker"
+    },
+    {
+      "question": "Ngôn ngữ lập trình nào thường được sử dụng để viết MapReduce?",
+      "options": ["Python", "Java", "C++", "Scala"],
+      "answer": "Java"
+    },
+    {
+      "question": "Cấu trúc dữ liệu cơ bản trong MapReduce là gì?",
+      "options": ["Mảng", "Danh sách liên kết", "Cặp khóa-giá trị", "Đồ thị"],
+      "answer": "Cặp khóa-giá trị"
+    },
+    {
+      "question": "YARN cung cấp thành phần nào để quản lý tài nguyên?",
+      "options": [
+        "Resource Manager",
+        "NameNode",
+        "TaskTracker",
+        "Node Manager"
+      ],
+      "answer": "Resource Manager"
+    },
+    {
+      "question": "Hadoop 2.x hỗ trợ tính năng nào mới so với Hadoop 1.x?",
+      "options": [
+        "Tăng kích thước khối mặc định",
+        "Hỗ trợ nhiều NameNode",
+        "Tăng số lượng mapper",
+        "Tăng tốc độ đọc"
+      ],
+      "answer": "Hỗ trợ nhiều NameNode"
+    },
+    {
+      "question": "Mục đích chính của combiner là gì?",
+      "options": [
+        "Giảm lượng dữ liệu trung gian",
+        "Tăng tốc độ mapper",
+        "Cải thiện thuật toán reducer",
+        "Phân bổ tài nguyên hiệu quả"
+      ],
+      "answer": "Giảm lượng dữ liệu trung gian"
+    },
+    {
+      "question": "Trong HDFS, mỗi khối dữ liệu được sao chép tối thiểu trên bao nhiêu nút?",
+      "options": ["1", "2", "3", "4"],
+      "answer": "3"
+    },
+    {
+      "question": "Hadoop 2.x giới thiệu kiến trúc mới nào?",
+      "options": ["MRv1", "MRv2", "HDFS 2.0", "YARN"],
+      "answer": "YARN"
+    },
+    {
+      "question": "Ứng dụng Hadoop nào sử dụng MapReduce để tính toán độ xếp hạng trang web?",
+      "options": ["Pig", "Hive", "PageRank", "HBase"],
+      "answer": "PageRank"
+    },
+    {
+      "question": "Hệ thống tệp nào được Google phát triển để hỗ trợ MapReduce?",
+      "options": ["HDFS", "Google File System (GFS)", "Amazon S3", "Ceph"],
+      "answer": "Google File System (GFS)"
+    },
+    {
+      "question": "Lợi ích chính của việc nhân bản khối trong HDFS là gì?",
+      "options": [
+        "Tăng tốc độ xử lý",
+        "Đảm bảo tính toàn vẹn của dữ liệu",
+        "Đảm bảo dữ liệu luôn sẵn sàng",
+        "Giảm chi phí lưu trữ"
+      ],
+      "answer": "Đảm bảo dữ liệu luôn sẵn sàng"
+    },
+    {
+      "question": "Định nghĩa nào đúng nhất cho MapReduce?",
+      "options": [
+        "Một ngôn ngữ lập trình",
+        "Một mô hình lập trình và framework thực thi",
+        "Một hệ thống lưu trữ phân tán",
+        "Một công cụ xử lý dữ liệu luồng"
+      ],
+      "answer": "Một mô hình lập trình và framework thực thi"
+    },
+    {
+      "question": "NameNode lưu trữ siêu dữ liệu dưới dạng nào?",
+      "options": ["Text", "EditLog và FSImage", "JSON", "Binary"],
+      "answer": "EditLog và FSImage"
+    },
+    {
+      "question": "Reducer xử lý những cặp dữ liệu nào?",
+      "options": [
+        "Dữ liệu từ Mapper",
+        "Dữ liệu từ NameNode",
+        "Dữ liệu đã qua combiner",
+        "Dữ liệu đã lưu trên DataNode"
+      ],
+      "answer": "Dữ liệu đã qua combiner"
+    },
+    {
+      "question": "Khi nào combiner không hoạt động hiệu quả?",
+      "options": [
+        "Khi dữ liệu lớn",
+        "Khi các khóa không trùng lặp",
+        "Khi số mapper ít",
+        "Khi reducer gặp lỗi"
+      ],
+      "answer": "Khi các khóa không trùng lặp"
+    },
+    {
+      "question": "Nhược điểm lớn nhất của MapReduce là gì?",
+      "options": [
+        "Không thể xử lý dữ liệu phi cấu trúc",
+        "Không hiệu quả với thuật toán đệ quy",
+        "Phụ thuộc vào Hadoop",
+        "Cần nhiều tài nguyên phần cứng"
+      ],
+      "answer": "Không hiệu quả với thuật toán đệ quy"
+    },
+    {
+      "question": "Điều gì xảy ra nếu không có đủ RAM để lưu trữ dữ liệu trung gian?",
+      "options": [
+        "Dữ liệu bị mất",
+        "Hệ thống sử dụng ổ cứng để lưu trữ tạm",
+        "Công việc bị hủy",
+        "Dữ liệu không được xử lý"
+      ],
+      "answer": "Hệ thống sử dụng ổ cứng để lưu trữ tạm"
+    },
+    {
+      "question": "Mô hình lập trình nào nhấn mạnh vào tính toán giá trị của hàm mà không thay đổi trạng thái?",
+      "options": [
+        "Lập trình thủ tục",
+        "Lập trình hàm",
+        "Lập trình đối tượng",
+        "Lập trình logic"
+      ],
+      "answer": "Lập trình hàm"
+    },
+    {
+      "question": "Hadoop được phát triển ban đầu bởi tổ chức nào?",
+      "options": ["Google", "Yahoo", "Facebook", "IBM"],
+      "answer": "Yahoo"
+    },
+    {
+      "question": "Hadoop phù hợp nhất cho loại ứng dụng nào?",
+      "options": [
+        "Ứng dụng thời gian thực",
+        "Ứng dụng quét dữ liệu lớn",
+        "Ứng dụng giao tiếp đồng bộ",
+        "Ứng dụng xử lý đồ thị"
+      ],
+      "answer": "Ứng dụng quét dữ liệu lớn"
+    },
+    {
+      "question": "Khi NameNode gặp lỗi, thành phần nào hỗ trợ khôi phục dữ liệu?",
+      "options": [
+        "Secondary NameNode",
+        "DataNode",
+        "TaskTracker",
+        "ApplicationMaster"
+      ],
+      "answer": "Secondary NameNode"
+    },
+    {
+      "question": "Dữ liệu trung gian trong MapReduce thường được ghi ở đâu?",
+      "options": ["RAM", "Ổ cứng", "NameNode", "YARN"],
+      "answer": "Ổ cứng"
+    }
+  ]
+}
